@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subneteo</title>
+    <script src="js/operaciones.js" ></script>
+    <script src="js/tablita.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+    <div class="div_inicio">
+        <div class="cont_perfil">
+            <h1 align="center">PROGRAMA DE SUBNETEO</h1>
+
+                    
+        </div>
+        
+    </div>
+
+    <div align="center">
+        <label class="cont_perfill">Ip</label>
+        <br>
+        <br>      
+        <input type="input_text" class="boxi" id="ip" name="ip" >
+
+        <br>
+        <br>
+            
+        <label class="cont_perfill">Subredes</label>
+        <br>
+        <br>
+            
+        <input type="input_text" class="boxi" id="subred">
+           
+
+        <br>
+        <br>
+        <input type="button" class="boxi" value="Calcular" onclick="XDE()" >
+    
+
+           
+            <h3>IP en binario</h3>
+                   
+            <input type="text" class="boxi" id="ipbin" readonly>
+               
+            <h3>Tipo de clase</h3>  
+                    
+            <input type="text" class="boxi" id="clase" readonly>
+                    
+            <h3>Máscara de subred adaptada</h3>
+                    
+            <input type="text" class="boxi" id="maskadap" readonly>
+                   
+            <h3>Máscara de subred en binario</h3>
+                    
+            <input type="text" class="boxi" id="maskbin" readonly>
+                    
+            
+        </div>
+        <br>
+        <div>
+            <table id="tabla1" class="table" align="center">           
+            </table>
+        </div>
+    </div>  
+    <br>
+    <br>
+    <br>
+</body>
+</html>
